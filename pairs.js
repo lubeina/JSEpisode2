@@ -20,6 +20,7 @@
 function pairs(names) {
   // Your code goes here
   const result = [];
+
   if (names) {
     while (names.length > 1) {
       let p1 = names.getRandom();
